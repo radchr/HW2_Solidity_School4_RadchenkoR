@@ -1,0 +1,32 @@
+{
+  "name": "token_erc20",
+  "version": "1.0.0",
+  "description": "Token ERC20 ",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radchr/Radchenko_Roman_Solidity_School4.git"
+  },
+  "keywords": [
+    "token",
+    "ERC20"
+  ],
+  "author": "Roman Radchenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/radchr/Radchenko_Roman_Solidity_School4/issues"
+  },
+  "homepage": "https://github.com/radchr/Radchenko_Roman_Solidity_School4#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.2.0",
+    "@truffle/hdwallet-provider": "^1.4.2",
+    "solidity-coverage": "^0.7.16",
+    "truffle-plugin-verify": "^0.5.11"
+  }
+}
